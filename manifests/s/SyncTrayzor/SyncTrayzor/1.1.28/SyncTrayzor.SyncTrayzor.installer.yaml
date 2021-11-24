@@ -1,0 +1,16 @@
+# Created using wingetcreate 0.4.3.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
+
+PackageIdentifier: SyncTrayzor.SyncTrayzor
+PackageVersion: 1.1.28.0
+Installers:
+- Architecture: x64
+  InstallerType: inno
+  InstallerUrl: https://github.com/canton7/SyncTrayzor/releases/download/v1.1.28/SyncTrayzorSetup-x64.exe
+  InstallerSha256: BBAAB4C9FDDDAD1A777EB8AA113B45351064E0DFD1C974FF069F8E4A746878DC
+- Architecture: x86
+  InstallerType: inno
+  InstallerUrl: https://github.com/canton7/SyncTrayzor/releases/download/v1.1.28/SyncTrayzorSetup-x86.exe
+  InstallerSha256: ABEFE2350D53145B686C4AE1FC5796CFC5E4E13659905A43C47DE8323188AE23
+ManifestType: installer
+ManifestVersion: 1.0.0
